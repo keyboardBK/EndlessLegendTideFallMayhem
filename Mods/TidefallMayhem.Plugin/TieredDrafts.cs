@@ -13,7 +13,7 @@ namespace TidefallMayhem
         internal static string TierForRoll(uint roll)
         {
             roll %= 100;
-            return roll < 50 ? "Silver" : roll < 85 ? "Gold" : "Prismatic";
+            return roll < 40 ? "Silver" : roll < 80 ? "Gold" : "Prismatic";
         }
         private static uint Next(ref uint state)
         {

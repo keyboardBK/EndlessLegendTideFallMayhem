@@ -38,7 +38,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Rage_Gold",
@@ -79,7 +79,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Rage_Prismatic",
@@ -120,7 +120,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Titan",
@@ -161,7 +161,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Titan_Gold",
@@ -202,7 +202,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Titan_Prismatic",
@@ -243,7 +243,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "March",
@@ -284,7 +284,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "March_Gold",
@@ -325,7 +325,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "March_Prismatic",
@@ -366,7 +366,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Vengeance",
@@ -407,7 +407,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Vengeance_Gold",
@@ -448,7 +448,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Vengeance_Prismatic",
@@ -489,7 +489,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Harvest",
@@ -529,7 +529,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Harvest_Gold",
@@ -569,7 +569,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Harvest_Prismatic",
@@ -609,7 +609,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Forge",
@@ -649,7 +649,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Forge_Gold",
@@ -689,7 +689,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Forge_Prismatic",
@@ -729,7 +729,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Insight",
@@ -769,7 +769,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Insight_Gold",
@@ -809,7 +809,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Insight_Prismatic",
@@ -849,7 +849,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Gold",
@@ -889,7 +889,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Gold_Gold",
@@ -929,7 +929,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Gold_Prismatic",
@@ -969,7 +969,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Voice",
@@ -1009,7 +1009,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Voice_Gold",
@@ -1049,7 +1049,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Voice_Prismatic",
@@ -1089,7 +1089,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Scout",
@@ -1167,7 +1167,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Scout_Gold",
@@ -1245,7 +1245,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Scout_Prismatic",
@@ -1323,7 +1323,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Juggernaut",
@@ -1376,7 +1376,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Juggernaut_Gold",
@@ -1429,7 +1429,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Juggernaut_Prismatic",
@@ -1482,7 +1482,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Prosperity",
@@ -1570,7 +1570,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Prosperity_Gold",
@@ -1658,7 +1658,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Prosperity_Prismatic",
@@ -1746,7 +1746,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Bulwark",
@@ -1787,7 +1787,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Bulwark_Gold",
@@ -1828,7 +1828,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Bulwark_Prismatic",
@@ -1869,7 +1869,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Renewal",
@@ -1910,7 +1910,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Renewal_Gold",
@@ -1951,7 +1951,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Renewal_Prismatic",
@@ -1992,7 +1992,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Veteran",
@@ -2034,7 +2034,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Veteran_Gold",
@@ -2076,7 +2076,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Veteran_Prismatic",
@@ -2118,7 +2118,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Drill",
@@ -2159,7 +2159,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Drill_Gold",
@@ -2200,7 +2200,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Drill_Prismatic",
@@ -2241,7 +2241,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Harmony",
@@ -2281,7 +2281,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Harmony_Gold",
@@ -2321,7 +2321,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Harmony_Prismatic",
@@ -2361,7 +2361,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Garrison",
@@ -2402,7 +2402,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Garrison_Gold",
@@ -2443,7 +2443,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Garrison_Prismatic",
@@ -2484,7 +2484,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Armory",
@@ -2537,7 +2537,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Armory_Gold",
@@ -2590,7 +2590,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Armory_Prismatic",
@@ -2643,7 +2643,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "FieldMedic",
@@ -2696,7 +2696,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "FieldMedic_Gold",
@@ -2749,7 +2749,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "FieldMedic_Prismatic",
@@ -2802,7 +2802,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Countercharge",
@@ -2855,7 +2855,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Countercharge_Gold",
@@ -2908,7 +2908,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Countercharge_Prismatic",
@@ -2961,7 +2961,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Blitz",
@@ -3015,7 +3015,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Blitz_Gold",
@@ -3069,7 +3069,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Blitz_Prismatic",
@@ -3123,7 +3123,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "SiegeIndustry",
@@ -3189,7 +3189,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "SiegeIndustry_Gold",
@@ -3255,7 +3255,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "SiegeIndustry_Prismatic",
@@ -3321,7 +3321,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "SupplyChains",
@@ -3387,7 +3387,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "SupplyChains_Gold",
@@ -3453,7 +3453,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "SupplyChains_Prismatic",
@@ -3519,7 +3519,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "MilitaryAcademy",
@@ -3585,7 +3585,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "MilitaryAcademy_Gold",
@@ -3651,7 +3651,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "MilitaryAcademy_Prismatic",
@@ -3717,7 +3717,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "WorkshopSchool",
@@ -3769,7 +3769,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "WorkshopSchool_Gold",
@@ -3821,7 +3821,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "WorkshopSchool_Prismatic",
@@ -3873,7 +3873,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "MerchantLeague",
@@ -3925,7 +3925,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "MerchantLeague_Gold",
@@ -3977,7 +3977,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "MerchantLeague_Prismatic",
@@ -4029,7 +4029,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Enlightenment",
@@ -4081,7 +4081,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Enlightenment_Gold",
@@ -4133,7 +4133,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Enlightenment_Prismatic",
@@ -4185,7 +4185,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Granaries",
@@ -4237,7 +4237,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Granaries_Gold",
@@ -4289,7 +4289,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Granaries_Prismatic",
@@ -4341,7 +4341,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Commerce",
@@ -4393,7 +4393,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Commerce_Gold",
@@ -4445,7 +4445,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Commerce_Prismatic",
@@ -4497,7 +4497,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "WarEconomy",
@@ -4563,7 +4563,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "WarEconomy_Gold",
@@ -4629,7 +4629,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "WarEconomy_Prismatic",
@@ -4695,7 +4695,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "SkilledLabor",
@@ -4747,7 +4747,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "SkilledLabor_Gold",
@@ -4799,7 +4799,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "SkilledLabor_Prismatic",
@@ -4851,7 +4851,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "ResearchFunding",
@@ -4903,7 +4903,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "ResearchFunding_Gold",
@@ -4955,7 +4955,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "ResearchFunding_Prismatic",
@@ -5007,7 +5007,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Rally",
@@ -5073,7 +5073,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Rally_Gold",
@@ -5139,7 +5139,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Rally_Prismatic",
@@ -5205,7 +5205,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Expedition",
@@ -5259,7 +5259,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Expedition_Gold",
@@ -5313,7 +5313,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Expedition_Prismatic",
@@ -5367,7 +5367,7 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   },
   {
     "id": "Frontier",
@@ -5445,7 +5445,7 @@
     "tier": "Silver",
     "tier_ko": "실버",
     "multiplier": 1,
-    "draft_chance": 50
+    "draft_chance": 40
   },
   {
     "id": "Frontier_Gold",
@@ -5523,7 +5523,7 @@
     "tier": "Gold",
     "tier_ko": "골드",
     "multiplier": 2,
-    "draft_chance": 35
+    "draft_chance": 40
   },
   {
     "id": "Frontier_Prismatic",
@@ -5601,6 +5601,6 @@
     "tier": "Prismatic",
     "tier_ko": "프리즘",
     "multiplier": 3,
-    "draft_chance": 15
+    "draft_chance": 20
   }
 ]

@@ -1,7 +1,7 @@
 ﻿"""Derive tiers with optional per-entry overrides of the legacy effect multiplier."""
 import copy,re
 EFFECT_MULTIPLIER=1.5
-TIERS=[dict(id='Silver',label_ko='실버',label_en='Silver',multiplier=1,chance=50,suffix=''),dict(id='Gold',label_ko='골드',label_en='Gold',multiplier=2,chance=35,suffix='_Gold'),dict(id='Prismatic',label_ko='프리즘',label_en='Prismatic',multiplier=3,chance=15,suffix='_Prismatic')]
+TIERS=[dict(id='Silver',label_ko='실버',label_en='Silver',multiplier=1,chance=40,suffix=''),dict(id='Gold',label_ko='골드',label_en='Gold',multiplier=2,chance=40,suffix='_Gold'),dict(id='Prismatic',label_ko='프리즘',label_en='Prismatic',multiplier=3,chance=20,suffix='_Prismatic')]
 def scale_text(text,multiplier):
  def scale(m):
   value=float(m.group())*multiplier
