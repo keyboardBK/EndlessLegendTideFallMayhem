@@ -1,0 +1,5606 @@
+[
+  {
+    "id": "Rage",
+    "name_ko": "[실버] 광란",
+    "name_en": "[Silver] Rage",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +52.5%p.",
+    "description_en": "All units: +52.5 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 525
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Rage",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Rage_Gold",
+    "name_ko": "[골드] 광란",
+    "name_en": "[Gold] Rage",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +105%p.",
+    "description_en": "All units: +105 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1050
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Rage",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Rage_Prismatic",
+    "name_ko": "[프리즘] 광란",
+    "name_en": "[Prismatic] Rage",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +157.5%p.",
+    "description_en": "All units: +157.5 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1575
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Rage",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Titan",
+    "name_ko": "[실버] 거인",
+    "name_en": "[Silver] Titan",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +60%.",
+    "description_en": "All units: +60% maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Titan",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Titan_Gold",
+    "name_ko": "[골드] 거인",
+    "name_en": "[Gold] Titan",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +120%.",
+    "description_en": "All units: +120% maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Titan",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Titan_Prismatic",
+    "name_ko": "[프리즘] 거인",
+    "name_en": "[Prismatic] Titan",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +180%.",
+    "description_en": "All units: +180% maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Titan",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "March",
+    "name_ko": "[실버] 질주",
+    "name_en": "[Silver] Forced March",
+    "category": "전투",
+    "description_ko": "모든 유닛 지상 이동력 +3.",
+    "description_en": "All units: +3 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 3000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "March",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "March_Gold",
+    "name_ko": "[골드] 질주",
+    "name_en": "[Gold] Forced March",
+    "category": "전투",
+    "description_ko": "모든 유닛 지상 이동력 +6.",
+    "description_en": "All units: +6 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 6000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "March",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "March_Prismatic",
+    "name_ko": "[프리즘] 질주",
+    "name_en": "[Prismatic] Forced March",
+    "category": "전투",
+    "description_ko": "모든 유닛 지상 이동력 +9.",
+    "description_en": "All units: +9 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 9000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "March",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Vengeance",
+    "name_ko": "[실버] 복수",
+    "name_en": "[Silver] Vengeance",
+    "category": "전투",
+    "description_ko": "모든 유닛 반격 피해 보너스 +90%p.",
+    "description_en": "All units: +90 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Vengeance",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Vengeance_Gold",
+    "name_ko": "[골드] 복수",
+    "name_en": "[Gold] Vengeance",
+    "category": "전투",
+    "description_ko": "모든 유닛 반격 피해 보너스 +180%p.",
+    "description_en": "All units: +180 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Vengeance",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Vengeance_Prismatic",
+    "name_ko": "[프리즘] 복수",
+    "name_en": "[Prismatic] Vengeance",
+    "category": "전투",
+    "description_ko": "모든 유닛 반격 피해 보너스 +270%p.",
+    "description_en": "All units: +270 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2700
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Vengeance",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Harvest",
+    "name_ko": "[실버] 끝없는 수확",
+    "name_en": "[Silver] Endless Harvest",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량 +60%.",
+    "description_en": "All settlements: +60% food.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Harvest",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Harvest_Gold",
+    "name_ko": "[골드] 끝없는 수확",
+    "name_en": "[Gold] Endless Harvest",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량 +120%.",
+    "description_en": "All settlements: +120% food.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Harvest",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Harvest_Prismatic",
+    "name_ko": "[프리즘] 끝없는 수확",
+    "name_en": "[Prismatic] Endless Harvest",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량 +180%.",
+    "description_en": "All settlements: +180% food.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Harvest",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Forge",
+    "name_ko": "[실버] 폭주하는 공장",
+    "name_en": "[Silver] Overdrive",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업 +60%.",
+    "description_en": "All settlements: +60% industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Forge",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Forge_Gold",
+    "name_ko": "[골드] 폭주하는 공장",
+    "name_en": "[Gold] Overdrive",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업 +120%.",
+    "description_en": "All settlements: +120% industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Forge",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Forge_Prismatic",
+    "name_ko": "[프리즘] 폭주하는 공장",
+    "name_en": "[Prismatic] Overdrive",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업 +180%.",
+    "description_en": "All settlements: +180% industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Forge",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Insight",
+    "name_ko": "[실버] 금단의 지식",
+    "name_en": "[Silver] Forbidden Knowledge",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +60%.",
+    "description_en": "All settlements: +60% science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Insight",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Insight_Gold",
+    "name_ko": "[골드] 금단의 지식",
+    "name_en": "[Gold] Forbidden Knowledge",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +120%.",
+    "description_en": "All settlements: +120% science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Insight",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Insight_Prismatic",
+    "name_ko": "[프리즘] 금단의 지식",
+    "name_en": "[Prismatic] Forbidden Knowledge",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +180%.",
+    "description_en": "All settlements: +180% science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Insight",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Gold",
+    "name_ko": "[실버] 황금의 시대",
+    "name_en": "[Silver] Golden Age",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트 +60%.",
+    "description_en": "All settlements: +60% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Gold",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Gold_Gold",
+    "name_ko": "[골드] 황금의 시대",
+    "name_en": "[Gold] Golden Age",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트 +120%.",
+    "description_en": "All settlements: +120% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Gold",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Gold_Prismatic",
+    "name_ko": "[프리즘] 황금의 시대",
+    "name_en": "[Prismatic] Golden Age",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트 +180%.",
+    "description_en": "All settlements: +180% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Gold",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Voice",
+    "name_ko": "[실버] 절대 권력",
+    "name_en": "[Silver] Absolute Power",
+    "category": "경제",
+    "description_ko": "모든 정착지 영향력 +60%.",
+    "description_en": "All settlements: +60% influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Voice",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Voice_Gold",
+    "name_ko": "[골드] 절대 권력",
+    "name_en": "[Gold] Absolute Power",
+    "category": "경제",
+    "description_ko": "모든 정착지 영향력 +120%.",
+    "description_en": "All settlements: +120% influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Voice",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Voice_Prismatic",
+    "name_ko": "[프리즘] 절대 권력",
+    "name_en": "[Prismatic] Absolute Power",
+    "category": "경제",
+    "description_ko": "모든 정착지 영향력 +180%.",
+    "description_en": "All settlements: +180% influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Voice",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Scout",
+    "name_ko": "[실버] 천리안",
+    "name_en": "[Silver] Far Sight",
+    "category": "전투",
+    "description_ko": "모든 유닛 시야 +4.5, 지상 이동력 +2, 경험치 획득 배율 +25%p, 피해 보너스 +15%p.",
+    "description_en": "All units: +4.5 vision, +2 land movement, +25 percentage points experience gain multiplier and +15 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 4500
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 150
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Scout",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Scout_Gold",
+    "name_ko": "[골드] 천리안",
+    "name_en": "[Gold] Far Sight",
+    "category": "전투",
+    "description_ko": "모든 유닛 시야 +9, 지상 이동력 +4, 경험치 획득 배율 +50%p, 피해 보너스 +30%p.",
+    "description_en": "All units: +9 vision, +4 land movement, +50 percentage points experience gain multiplier and +30 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 9000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 4000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 500
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Scout",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Scout_Prismatic",
+    "name_ko": "[프리즘] 천리안",
+    "name_en": "[Prismatic] Far Sight",
+    "category": "전투",
+    "description_ko": "모든 유닛 시야 +13.5, 지상 이동력 +6, 경험치 획득 배율 +75%p, 피해 보너스 +45%p.",
+    "description_en": "All units: +13.5 vision, +6 land movement, +75 percentage points experience gain multiplier and +45 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 13500
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 6000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 450
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Scout",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Juggernaut",
+    "name_ko": "[실버] 파괴전차",
+    "name_en": "[Silver] Juggernaut",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +37.5%, 피해 보너스 +30%p.",
+    "description_en": "All units: +37.5% health and +30 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Juggernaut",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Juggernaut_Gold",
+    "name_ko": "[골드] 파괴전차",
+    "name_en": "[Gold] Juggernaut",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +75%, 피해 보너스 +60%p.",
+    "description_en": "All units: +75% health and +60 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Juggernaut",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Juggernaut_Prismatic",
+    "name_ko": "[프리즘] 파괴전차",
+    "name_en": "[Prismatic] Juggernaut",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +112.5%, 피해 보너스 +90%p.",
+    "description_en": "All units: +112.5% health and +90 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Juggernaut",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Prosperity",
+    "name_ko": "[실버] 번영의 물결",
+    "name_en": "[Silver] Wave of Prosperity",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량·산업·과학·더스트·영향력 +30%.",
+    "description_en": "All settlements: +30% food, industry, science, Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Prosperity",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Prosperity_Gold",
+    "name_ko": "[골드] 번영의 물결",
+    "name_en": "[Gold] Wave of Prosperity",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량·산업·과학·더스트·영향력 +60%.",
+    "description_en": "All settlements: +60% food, industry, science, Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Prosperity",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Prosperity_Prismatic",
+    "name_ko": "[프리즘] 번영의 물결",
+    "name_en": "[Prismatic] Wave of Prosperity",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량·산업·과학·더스트·영향력 +90%.",
+    "description_en": "All settlements: +90% food, industry, science, Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Prosperity",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Bulwark",
+    "name_ko": "[실버] 철벽",
+    "name_en": "[Silver] Bulwark",
+    "category": "방어",
+    "description_ko": "모든 유닛 고정 피해 감소 +12.",
+    "description_en": "All units: +12 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 12000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Bulwark",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Bulwark_Gold",
+    "name_ko": "[골드] 철벽",
+    "name_en": "[Gold] Bulwark",
+    "category": "방어",
+    "description_ko": "모든 유닛 고정 피해 감소 +24.",
+    "description_en": "All units: +24 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 24000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Bulwark",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Bulwark_Prismatic",
+    "name_ko": "[프리즘] 철벽",
+    "name_en": "[Prismatic] Bulwark",
+    "category": "방어",
+    "description_ko": "모든 유닛 고정 피해 감소 +36.",
+    "description_en": "All units: +36 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 36000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Bulwark",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Renewal",
+    "name_ko": "[실버] 재생의 샘",
+    "name_en": "[Silver] Renewal",
+    "category": "회복",
+    "description_ko": "모든 유닛 체력 재생 +12.",
+    "description_en": "All units: +12 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 12000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Renewal",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Renewal_Gold",
+    "name_ko": "[골드] 재생의 샘",
+    "name_en": "[Gold] Renewal",
+    "category": "회복",
+    "description_ko": "모든 유닛 체력 재생 +24.",
+    "description_en": "All units: +24 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 24000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Renewal",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Renewal_Prismatic",
+    "name_ko": "[프리즘] 재생의 샘",
+    "name_en": "[Prismatic] Renewal",
+    "category": "회복",
+    "description_ko": "모든 유닛 체력 재생 +36.",
+    "description_en": "All units: +36 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 36000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Renewal",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Veteran",
+    "name_ko": "[실버] 백전노장",
+    "name_en": "[Silver] Veteran",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +200%p.",
+    "description_en": "All units: +200 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Veteran",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Veteran_Gold",
+    "name_ko": "[골드] 백전노장",
+    "name_en": "[Gold] Veteran",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +400%p.",
+    "description_en": "All units: +400 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 4000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Veteran",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Veteran_Prismatic",
+    "name_ko": "[프리즘] 백전노장",
+    "name_en": "[Prismatic] Veteran",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +600%p.",
+    "description_en": "All units: +600 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 6000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Veteran",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Drill",
+    "name_ko": "[실버] 정예 훈련소",
+    "name_en": "[Silver] Elite Training",
+    "category": "성장",
+    "description_ko": "모든 정착지에서 생성하는 유닛의 시작 경험치 +3000.",
+    "description_en": "All settlements: +3000 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 3000000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Drill",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Drill_Gold",
+    "name_ko": "[골드] 정예 훈련소",
+    "name_en": "[Gold] Elite Training",
+    "category": "성장",
+    "description_ko": "모든 정착지에서 생성하는 유닛의 시작 경험치 +6000.",
+    "description_en": "All settlements: +6000 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 6000000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Drill",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Drill_Prismatic",
+    "name_ko": "[프리즘] 정예 훈련소",
+    "name_en": "[Prismatic] Elite Training",
+    "category": "성장",
+    "description_ko": "모든 정착지에서 생성하는 유닛의 시작 경험치 +9000.",
+    "description_en": "All settlements: +9000 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 9000000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Drill",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Harmony",
+    "name_ko": "[실버] 태평성대",
+    "name_en": "[Silver] Harmony",
+    "category": "내정",
+    "description_ko": "모든 정착지 승인도 획득 +22.5.",
+    "description_en": "All settlements: +22.5 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 22500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Harmony",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Harmony_Gold",
+    "name_ko": "[골드] 태평성대",
+    "name_en": "[Gold] Harmony",
+    "category": "내정",
+    "description_ko": "모든 정착지 승인도 획득 +45.",
+    "description_en": "All settlements: +45 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 45000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Harmony",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Harmony_Prismatic",
+    "name_ko": "[프리즘] 태평성대",
+    "name_en": "[Prismatic] Harmony",
+    "category": "내정",
+    "description_ko": "모든 정착지 승인도 획득 +67.5.",
+    "description_en": "All settlements: +67.5 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 67500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Harmony",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Garrison",
+    "name_ko": "[실버] 강철 체력",
+    "name_en": "[Silver] Iron Constitution",
+    "category": "방어",
+    "description_ko": "모든 유닛 최대 체력 +90.",
+    "description_en": "All units: +90 maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 90000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Garrison",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Garrison_Gold",
+    "name_ko": "[골드] 강철 체력",
+    "name_en": "[Gold] Iron Constitution",
+    "category": "방어",
+    "description_ko": "모든 유닛 최대 체력 +180.",
+    "description_en": "All units: +180 maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 180000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Garrison",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Garrison_Prismatic",
+    "name_ko": "[프리즘] 강철 체력",
+    "name_en": "[Prismatic] Iron Constitution",
+    "category": "방어",
+    "description_ko": "모든 유닛 최대 체력 +270.",
+    "description_en": "All units: +270 maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 270000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Garrison",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Armory",
+    "name_ko": "[실버] 중무장",
+    "name_en": "[Silver] Heavy Armament",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +30%p, 고정 피해 감소 +6.",
+    "description_en": "All units: +30 percentage points damage bonus and +6 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 6000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Armory",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Armory_Gold",
+    "name_ko": "[골드] 중무장",
+    "name_en": "[Gold] Heavy Armament",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +60%p, 고정 피해 감소 +12.",
+    "description_en": "All units: +60 percentage points damage bonus and +12 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 12000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Armory",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Armory_Prismatic",
+    "name_ko": "[프리즘] 중무장",
+    "name_en": "[Prismatic] Heavy Armament",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +90%p, 고정 피해 감소 +18.",
+    "description_en": "All units: +90 percentage points damage bonus and +18 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 18000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Armory",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "FieldMedic",
+    "name_ko": "[실버] 야전 의무대",
+    "name_en": "[Silver] Field Medics",
+    "category": "회복",
+    "description_ko": "모든 유닛 최대 체력 +37.5%, 체력 재생 +6.",
+    "description_en": "All units: +37.5% maximum health and +6 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 6000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "FieldMedic",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "FieldMedic_Gold",
+    "name_ko": "[골드] 야전 의무대",
+    "name_en": "[Gold] Field Medics",
+    "category": "회복",
+    "description_ko": "모든 유닛 최대 체력 +75%, 체력 재생 +12.",
+    "description_en": "All units: +75% maximum health and +12 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 12000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "FieldMedic",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "FieldMedic_Prismatic",
+    "name_ko": "[프리즘] 야전 의무대",
+    "name_en": "[Prismatic] Field Medics",
+    "category": "회복",
+    "description_ko": "모든 유닛 최대 체력 +112.5%, 체력 재생 +18.",
+    "description_en": "All units: +112.5% maximum health and +18 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 18000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "FieldMedic",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Countercharge",
+    "name_ko": "[실버] 반격의 포효",
+    "name_en": "[Silver] Countercharge",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +30%p, 반격 피해 보너스 +60%p.",
+    "description_en": "All units: +30 percentage points damage bonus and +60 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Countercharge",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Countercharge_Gold",
+    "name_ko": "[골드] 반격의 포효",
+    "name_en": "[Gold] Countercharge",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +60%p, 반격 피해 보너스 +120%p.",
+    "description_en": "All units: +60 percentage points damage bonus and +120 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Countercharge",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Countercharge_Prismatic",
+    "name_ko": "[프리즘] 반격의 포효",
+    "name_en": "[Prismatic] Countercharge",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +90%p, 반격 피해 보너스 +180%p.",
+    "description_en": "All units: +90 percentage points damage bonus and +180 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1800
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Countercharge",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Blitz",
+    "name_ko": "[실버] 전격전",
+    "name_en": "[Silver] Blitz",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +1, 피해 보너스 +30%p.",
+    "description_en": "All units: +1 land movement and +30 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Blitz",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Blitz_Gold",
+    "name_ko": "[골드] 전격전",
+    "name_en": "[Gold] Blitz",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +2, 피해 보너스 +60%p.",
+    "description_en": "All units: +2 land movement and +60 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Blitz",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Blitz_Prismatic",
+    "name_ko": "[프리즘] 전격전",
+    "name_en": "[Prismatic] Blitz",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +3, 피해 보너스 +90%p.",
+    "description_en": "All units: +3 land movement and +90 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 3000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Blitz",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "SiegeIndustry",
+    "name_ko": "[실버] 공성 공방",
+    "name_en": "[Silver] Siege Workshops",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +37.5%, 모든 유닛 피해 보너스 +30%p.",
+    "description_en": "All settlements: +37.5% industry. All units: +30 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SiegeIndustry",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "SiegeIndustry_Gold",
+    "name_ko": "[골드] 공성 공방",
+    "name_en": "[Gold] Siege Workshops",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +75%, 모든 유닛 피해 보너스 +60%p.",
+    "description_en": "All settlements: +75% industry. All units: +60 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SiegeIndustry",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "SiegeIndustry_Prismatic",
+    "name_ko": "[프리즘] 공성 공방",
+    "name_en": "[Prismatic] Siege Workshops",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +112.5%, 모든 유닛 피해 보너스 +90%p.",
+    "description_en": "All settlements: +112.5% industry. All units: +90 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SiegeIndustry",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "SupplyChains",
+    "name_ko": "[실버] 보급의 물결",
+    "name_en": "[Silver] Supply Chains",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량 +37.5%, 모든 유닛 지상 이동력 +1.5.",
+    "description_en": "All settlements: +37.5% food. All units: +1.5 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SupplyChains",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "SupplyChains_Gold",
+    "name_ko": "[골드] 보급의 물결",
+    "name_en": "[Gold] Supply Chains",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량 +75%, 모든 유닛 지상 이동력 +3.",
+    "description_en": "All settlements: +75% food. All units: +3 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 3000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SupplyChains",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "SupplyChains_Prismatic",
+    "name_ko": "[프리즘] 보급의 물결",
+    "name_en": "[Prismatic] Supply Chains",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량 +112.5%, 모든 유닛 지상 이동력 +4.5.",
+    "description_en": "All settlements: +112.5% food. All units: +4.5 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 4500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SupplyChains",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "MilitaryAcademy",
+    "name_ko": "[실버] 전쟁 대학",
+    "name_en": "[Silver] Military Academy",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +75%p, 모든 정착지의 신규 유닛 시작 경험치 +75.",
+    "description_en": "All units: +75 percentage points experience gain multiplier. All settlements: +75 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 75000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "MilitaryAcademy",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "MilitaryAcademy_Gold",
+    "name_ko": "[골드] 전쟁 대학",
+    "name_en": "[Gold] Military Academy",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +150%p, 모든 정착지의 신규 유닛 시작 경험치 +150.",
+    "description_en": "All units: +150 percentage points experience gain multiplier. All settlements: +150 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 150000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "MilitaryAcademy",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "MilitaryAcademy_Prismatic",
+    "name_ko": "[프리즘] 전쟁 대학",
+    "name_en": "[Prismatic] Military Academy",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +225%p, 모든 정착지의 신규 유닛 시작 경험치 +225.",
+    "description_en": "All units: +225 percentage points experience gain multiplier. All settlements: +225 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 225000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "MilitaryAcademy",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "WorkshopSchool",
+    "name_ko": "[실버] 기술 혁명",
+    "name_en": "[Silver] Technical Revolution",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업·과학 +37.5%.",
+    "description_en": "All settlements: +37.5% industry and science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "WorkshopSchool",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "WorkshopSchool_Gold",
+    "name_ko": "[골드] 기술 혁명",
+    "name_en": "[Gold] Technical Revolution",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업·과학 +75%.",
+    "description_en": "All settlements: +75% industry and science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "WorkshopSchool",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "WorkshopSchool_Prismatic",
+    "name_ko": "[프리즘] 기술 혁명",
+    "name_en": "[Prismatic] Technical Revolution",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업·과학 +112.5%.",
+    "description_en": "All settlements: +112.5% industry and science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "WorkshopSchool",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "MerchantLeague",
+    "name_ko": "[실버] 상인 연맹",
+    "name_en": "[Silver] Merchant League",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·영향력 +37.5%.",
+    "description_en": "All settlements: +37.5% Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "MerchantLeague",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "MerchantLeague_Gold",
+    "name_ko": "[골드] 상인 연맹",
+    "name_en": "[Gold] Merchant League",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·영향력 +75%.",
+    "description_en": "All settlements: +75% Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "MerchantLeague",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "MerchantLeague_Prismatic",
+    "name_ko": "[프리즘] 상인 연맹",
+    "name_en": "[Prismatic] Merchant League",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·영향력 +112.5%.",
+    "description_en": "All settlements: +112.5% Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "MerchantLeague",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Enlightenment",
+    "name_ko": "[실버] 계몽의 시대",
+    "name_en": "[Silver] Enlightenment",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학·영향력 +37.5%.",
+    "description_en": "All settlements: +37.5% science and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Enlightenment",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Enlightenment_Gold",
+    "name_ko": "[골드] 계몽의 시대",
+    "name_en": "[Gold] Enlightenment",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학·영향력 +75%.",
+    "description_en": "All settlements: +75% science and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Enlightenment",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Enlightenment_Prismatic",
+    "name_ko": "[프리즘] 계몽의 시대",
+    "name_en": "[Prismatic] Enlightenment",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학·영향력 +112.5%.",
+    "description_en": "All settlements: +112.5% science and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Enlightenment",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Granaries",
+    "name_ko": "[실버] 풍요로운 민심",
+    "name_en": "[Silver] Full Granaries",
+    "category": "내정",
+    "description_ko": "모든 정착지 식량 +37.5%, 승인도 획득 +15.",
+    "description_en": "All settlements: +37.5% food and +15 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 15000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Granaries",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Granaries_Gold",
+    "name_ko": "[골드] 풍요로운 민심",
+    "name_en": "[Gold] Full Granaries",
+    "category": "내정",
+    "description_ko": "모든 정착지 식량 +75%, 승인도 획득 +30.",
+    "description_en": "All settlements: +75% food and +30 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 30000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Granaries",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Granaries_Prismatic",
+    "name_ko": "[프리즘] 풍요로운 민심",
+    "name_en": "[Prismatic] Full Granaries",
+    "category": "내정",
+    "description_ko": "모든 정착지 식량 +112.5%, 승인도 획득 +45.",
+    "description_en": "All settlements: +112.5% food and +45 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 45000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Granaries",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Commerce",
+    "name_ko": "[실버] 산업 자본",
+    "name_en": "[Silver] Industrial Capital",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·산업 +37.5%.",
+    "description_en": "All settlements: +37.5% Dust and industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Commerce",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Commerce_Gold",
+    "name_ko": "[골드] 산업 자본",
+    "name_en": "[Gold] Industrial Capital",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·산업 +75%.",
+    "description_en": "All settlements: +75% Dust and industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Commerce",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Commerce_Prismatic",
+    "name_ko": "[프리즘] 산업 자본",
+    "name_en": "[Prismatic] Industrial Capital",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·산업 +112.5%.",
+    "description_en": "All settlements: +112.5% Dust and industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Commerce",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "WarEconomy",
+    "name_ko": "[실버] 전시 경제",
+    "name_en": "[Silver] War Economy",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +45%, 모든 유닛 피해 보너스 +22.5%p.",
+    "description_en": "All settlements: +45% industry. All units: +22.5 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 450
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 225
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "WarEconomy",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "WarEconomy_Gold",
+    "name_ko": "[골드] 전시 경제",
+    "name_en": "[Gold] War Economy",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +90%, 모든 유닛 피해 보너스 +45%p.",
+    "description_en": "All settlements: +90% industry. All units: +45 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 450
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "WarEconomy",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "WarEconomy_Prismatic",
+    "name_ko": "[프리즘] 전시 경제",
+    "name_en": "[Prismatic] War Economy",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +135%, 모든 유닛 피해 보너스 +67.5%p.",
+    "description_en": "All settlements: +135% industry. All units: +67.5 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1350
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 675
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "WarEconomy",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "SkilledLabor",
+    "name_ko": "[실버] 숙련된 병기공",
+    "name_en": "[Silver] Skilled Armorers",
+    "category": "성장",
+    "description_ko": "모든 정착지 산업 +37.5%, 신규 유닛 시작 경험치 +112.5.",
+    "description_en": "All settlements: +37.5% industry and +112.5 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 375
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 112500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SkilledLabor",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "SkilledLabor_Gold",
+    "name_ko": "[골드] 숙련된 병기공",
+    "name_en": "[Gold] Skilled Armorers",
+    "category": "성장",
+    "description_ko": "모든 정착지 산업 +75%, 신규 유닛 시작 경험치 +225.",
+    "description_en": "All settlements: +75% industry and +225 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 225000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SkilledLabor",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "SkilledLabor_Prismatic",
+    "name_ko": "[프리즘] 숙련된 병기공",
+    "name_en": "[Prismatic] Skilled Armorers",
+    "category": "성장",
+    "description_ko": "모든 정착지 산업 +112.5%, 신규 유닛 시작 경험치 +337.5.",
+    "description_en": "All settlements: +112.5% industry and +337.5 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1125
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 337500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "SkilledLabor",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "ResearchFunding",
+    "name_ko": "[실버] 황금 연구소",
+    "name_en": "[Silver] Golden Laboratories",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +45%, 더스트 +30%.",
+    "description_en": "All settlements: +45% science and +30% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 450
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "ResearchFunding",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "ResearchFunding_Gold",
+    "name_ko": "[골드] 황금 연구소",
+    "name_en": "[Gold] Golden Laboratories",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +90%, 더스트 +60%.",
+    "description_en": "All settlements: +90% science and +60% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "ResearchFunding",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "ResearchFunding_Prismatic",
+    "name_ko": "[프리즘] 황금 연구소",
+    "name_en": "[Prismatic] Golden Laboratories",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +135%, 더스트 +90%.",
+    "description_en": "All settlements: +135% science and +90% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1350
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "ResearchFunding",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Rally",
+    "name_ko": "[실버] 국민 총동원",
+    "name_en": "[Silver] Rally the Nation",
+    "category": "복합",
+    "description_ko": "모든 정착지 승인도 획득 +22.5, 모든 유닛 피해 보너스 +22.5%p.",
+    "description_en": "All settlements: +22.5 approval gain. All units: +22.5 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 22500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 225
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Rally",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Rally_Gold",
+    "name_ko": "[골드] 국민 총동원",
+    "name_en": "[Gold] Rally the Nation",
+    "category": "복합",
+    "description_ko": "모든 정착지 승인도 획득 +45, 모든 유닛 피해 보너스 +45%p.",
+    "description_en": "All settlements: +45 approval gain. All units: +45 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 45000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 450
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Rally",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Rally_Prismatic",
+    "name_ko": "[프리즘] 국민 총동원",
+    "name_en": "[Prismatic] Rally the Nation",
+    "category": "복합",
+    "description_ko": "모든 정착지 승인도 획득 +67.5, 모든 유닛 피해 보너스 +67.5%p.",
+    "description_en": "All settlements: +67.5 approval gain. All units: +67.5 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 67500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 675
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Rally",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Expedition",
+    "name_ko": "[실버] 원정의 베테랑",
+    "name_en": "[Silver] Expedition Veterans",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +1, 경험치 획득 배율 +75%p.",
+    "description_en": "All units: +1 land movement and +75 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Expedition",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Expedition_Gold",
+    "name_ko": "[골드] 원정의 베테랑",
+    "name_en": "[Gold] Expedition Veterans",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +2, 경험치 획득 배율 +150%p.",
+    "description_en": "All units: +2 land movement and +150 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Expedition",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Expedition_Prismatic",
+    "name_ko": "[프리즘] 원정의 베테랑",
+    "name_en": "[Prismatic] Expedition Veterans",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +3, 경험치 획득 배율 +225%p.",
+    "description_en": "All units: +3 land movement and +225 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 3000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0,
+    "base_id": "Expedition",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  },
+  {
+    "id": "Frontier",
+    "name_ko": "[실버] 개척의 시대",
+    "name_en": "[Silver] Frontier Age",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량·산업 +30%, 모든 유닛 시야 +3.",
+    "description_en": "All settlements: +30% food and industry. All units: +3 vision.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 3000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Frontier",
+    "tier": "Silver",
+    "tier_ko": "실버",
+    "multiplier": 1,
+    "draft_chance": 50
+  },
+  {
+    "id": "Frontier_Gold",
+    "name_ko": "[골드] 개척의 시대",
+    "name_en": "[Gold] Frontier Age",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량·산업 +60%, 모든 유닛 시야 +6.",
+    "description_en": "All settlements: +60% food and industry. All units: +6 vision.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 6000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Frontier",
+    "tier": "Gold",
+    "tier_ko": "골드",
+    "multiplier": 2,
+    "draft_chance": 35
+  },
+  {
+    "id": "Frontier_Prismatic",
+    "name_ko": "[프리즘] 개척의 시대",
+    "name_en": "[Prismatic] Frontier Age",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량·산업 +90%, 모든 유닛 시야 +9.",
+    "description_en": "All settlements: +90% food and industry. All units: +9 vision.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 900
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 9000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "base_id": "Frontier",
+    "tier": "Prismatic",
+    "tier_ko": "프리즘",
+    "multiplier": 3,
+    "draft_chance": 15
+  }
+]

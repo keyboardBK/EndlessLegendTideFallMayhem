@@ -1,0 +1,10 @@
+{
+  "AMP_SERIALIZATION_HEADER": {
+    "Version": 0,
+    "AssetTypeName": "Amplitude.Mercury.EffectMapper.DescriptorMapper, Amplitude.Mercury.Firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "SourceElementName": "Effect_Custom_Specific02"
+  },
+  "LocalizedName": "%TM_Countercharge_Prismatic_Title",
+  "HideDescriptor": false,
+  "PropertyEffectPolicies": []
+}

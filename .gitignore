@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+/ModWork/
+/artifacts/
+/Endless Legend 2_Data/
+/BepInEx/core/
+/BepInEx/config/
+/BepInEx/cache/
+/BepInEx/patchers/
+/UnityPlayer.dll
+/winhttp.dll
+/doorstop_config.ini

@@ -1,0 +1,109 @@
+﻿ID,증강명,분류,효과,등급,영구중첩,기본증강ID,실버대비배율,등급등장확률(%)
+Rage,[실버] 광란,전투,모든 유닛 피해 보너스 +52.5%p.,실버,가능,Rage,1,50
+Rage_Gold,[골드] 광란,전투,모든 유닛 피해 보너스 +105%p.,골드,가능,Rage,2,35
+Rage_Prismatic,[프리즘] 광란,전투,모든 유닛 피해 보너스 +157.5%p.,프리즘,가능,Rage,3,15
+Titan,[실버] 거인,전투,모든 유닛 최대 체력 +60%.,실버,가능,Titan,1,50
+Titan_Gold,[골드] 거인,전투,모든 유닛 최대 체력 +120%.,골드,가능,Titan,2,35
+Titan_Prismatic,[프리즘] 거인,전투,모든 유닛 최대 체력 +180%.,프리즘,가능,Titan,3,15
+March,[실버] 질주,전투,모든 유닛 지상 이동력 +3.,실버,가능,March,1,50
+March_Gold,[골드] 질주,전투,모든 유닛 지상 이동력 +6.,골드,가능,March,2,35
+March_Prismatic,[프리즘] 질주,전투,모든 유닛 지상 이동력 +9.,프리즘,가능,March,3,15
+Vengeance,[실버] 복수,전투,모든 유닛 반격 피해 보너스 +90%p.,실버,가능,Vengeance,1,50
+Vengeance_Gold,[골드] 복수,전투,모든 유닛 반격 피해 보너스 +180%p.,골드,가능,Vengeance,2,35
+Vengeance_Prismatic,[프리즘] 복수,전투,모든 유닛 반격 피해 보너스 +270%p.,프리즘,가능,Vengeance,3,15
+Harvest,[실버] 끝없는 수확,경제,모든 정착지 식량 +60%.,실버,가능,Harvest,1,50
+Harvest_Gold,[골드] 끝없는 수확,경제,모든 정착지 식량 +120%.,골드,가능,Harvest,2,35
+Harvest_Prismatic,[프리즘] 끝없는 수확,경제,모든 정착지 식량 +180%.,프리즘,가능,Harvest,3,15
+Forge,[실버] 폭주하는 공장,경제,모든 정착지 산업 +60%.,실버,가능,Forge,1,50
+Forge_Gold,[골드] 폭주하는 공장,경제,모든 정착지 산업 +120%.,골드,가능,Forge,2,35
+Forge_Prismatic,[프리즘] 폭주하는 공장,경제,모든 정착지 산업 +180%.,프리즘,가능,Forge,3,15
+Insight,[실버] 금단의 지식,경제,모든 정착지 과학 +60%.,실버,가능,Insight,1,50
+Insight_Gold,[골드] 금단의 지식,경제,모든 정착지 과학 +120%.,골드,가능,Insight,2,35
+Insight_Prismatic,[프리즘] 금단의 지식,경제,모든 정착지 과학 +180%.,프리즘,가능,Insight,3,15
+Gold,[실버] 황금의 시대,경제,모든 정착지 더스트 +60%.,실버,가능,Gold,1,50
+Gold_Gold,[골드] 황금의 시대,경제,모든 정착지 더스트 +120%.,골드,가능,Gold,2,35
+Gold_Prismatic,[프리즘] 황금의 시대,경제,모든 정착지 더스트 +180%.,프리즘,가능,Gold,3,15
+Voice,[실버] 절대 권력,경제,모든 정착지 영향력 +60%.,실버,가능,Voice,1,50
+Voice_Gold,[골드] 절대 권력,경제,모든 정착지 영향력 +120%.,골드,가능,Voice,2,35
+Voice_Prismatic,[프리즘] 절대 권력,경제,모든 정착지 영향력 +180%.,프리즘,가능,Voice,3,15
+Scout,[실버] 천리안,전투,"모든 유닛 시야 +4.5, 지상 이동력 +2, 경험치 획득 배율 +25%p, 피해 보너스 +15%p.",실버,가능,Scout,1,50
+Scout_Gold,[골드] 천리안,전투,"모든 유닛 시야 +9, 지상 이동력 +4, 경험치 획득 배율 +50%p, 피해 보너스 +30%p.",골드,가능,Scout,2,35
+Scout_Prismatic,[프리즘] 천리안,전투,"모든 유닛 시야 +13.5, 지상 이동력 +6, 경험치 획득 배율 +75%p, 피해 보너스 +45%p.",프리즘,가능,Scout,3,15
+Juggernaut,[실버] 파괴전차,전투,"모든 유닛 최대 체력 +37.5%, 피해 보너스 +30%p.",실버,가능,Juggernaut,1,50
+Juggernaut_Gold,[골드] 파괴전차,전투,"모든 유닛 최대 체력 +75%, 피해 보너스 +60%p.",골드,가능,Juggernaut,2,35
+Juggernaut_Prismatic,[프리즘] 파괴전차,전투,"모든 유닛 최대 체력 +112.5%, 피해 보너스 +90%p.",프리즘,가능,Juggernaut,3,15
+Prosperity,[실버] 번영의 물결,경제,모든 정착지 식량·산업·과학·더스트·영향력 +30%.,실버,가능,Prosperity,1,50
+Prosperity_Gold,[골드] 번영의 물결,경제,모든 정착지 식량·산업·과학·더스트·영향력 +60%.,골드,가능,Prosperity,2,35
+Prosperity_Prismatic,[프리즘] 번영의 물결,경제,모든 정착지 식량·산업·과학·더스트·영향력 +90%.,프리즘,가능,Prosperity,3,15
+Bulwark,[실버] 철벽,방어,모든 유닛 고정 피해 감소 +12.,실버,가능,Bulwark,1,50
+Bulwark_Gold,[골드] 철벽,방어,모든 유닛 고정 피해 감소 +24.,골드,가능,Bulwark,2,35
+Bulwark_Prismatic,[프리즘] 철벽,방어,모든 유닛 고정 피해 감소 +36.,프리즘,가능,Bulwark,3,15
+Renewal,[실버] 재생의 샘,회복,모든 유닛 체력 재생 +12.,실버,가능,Renewal,1,50
+Renewal_Gold,[골드] 재생의 샘,회복,모든 유닛 체력 재생 +24.,골드,가능,Renewal,2,35
+Renewal_Prismatic,[프리즘] 재생의 샘,회복,모든 유닛 체력 재생 +36.,프리즘,가능,Renewal,3,15
+Veteran,[실버] 백전노장,성장,모든 유닛 경험치 획득 배율 +200%p.,실버,가능,Veteran,1,50
+Veteran_Gold,[골드] 백전노장,성장,모든 유닛 경험치 획득 배율 +400%p.,골드,가능,Veteran,2,35
+Veteran_Prismatic,[프리즘] 백전노장,성장,모든 유닛 경험치 획득 배율 +600%p.,프리즘,가능,Veteran,3,15
+Drill,[실버] 정예 훈련소,성장,모든 정착지에서 생성하는 유닛의 시작 경험치 +3000.,실버,가능,Drill,1,50
+Drill_Gold,[골드] 정예 훈련소,성장,모든 정착지에서 생성하는 유닛의 시작 경험치 +6000.,골드,가능,Drill,2,35
+Drill_Prismatic,[프리즘] 정예 훈련소,성장,모든 정착지에서 생성하는 유닛의 시작 경험치 +9000.,프리즘,가능,Drill,3,15
+Harmony,[실버] 태평성대,내정,모든 정착지 승인도 획득 +22.5.,실버,가능,Harmony,1,50
+Harmony_Gold,[골드] 태평성대,내정,모든 정착지 승인도 획득 +45.,골드,가능,Harmony,2,35
+Harmony_Prismatic,[프리즘] 태평성대,내정,모든 정착지 승인도 획득 +67.5.,프리즘,가능,Harmony,3,15
+Garrison,[실버] 강철 체력,방어,모든 유닛 최대 체력 +90.,실버,가능,Garrison,1,50
+Garrison_Gold,[골드] 강철 체력,방어,모든 유닛 최대 체력 +180.,골드,가능,Garrison,2,35
+Garrison_Prismatic,[프리즘] 강철 체력,방어,모든 유닛 최대 체력 +270.,프리즘,가능,Garrison,3,15
+Armory,[실버] 중무장,전투,"모든 유닛 피해 보너스 +30%p, 고정 피해 감소 +6.",실버,가능,Armory,1,50
+Armory_Gold,[골드] 중무장,전투,"모든 유닛 피해 보너스 +60%p, 고정 피해 감소 +12.",골드,가능,Armory,2,35
+Armory_Prismatic,[프리즘] 중무장,전투,"모든 유닛 피해 보너스 +90%p, 고정 피해 감소 +18.",프리즘,가능,Armory,3,15
+FieldMedic,[실버] 야전 의무대,회복,"모든 유닛 최대 체력 +37.5%, 체력 재생 +6.",실버,가능,FieldMedic,1,50
+FieldMedic_Gold,[골드] 야전 의무대,회복,"모든 유닛 최대 체력 +75%, 체력 재생 +12.",골드,가능,FieldMedic,2,35
+FieldMedic_Prismatic,[프리즘] 야전 의무대,회복,"모든 유닛 최대 체력 +112.5%, 체력 재생 +18.",프리즘,가능,FieldMedic,3,15
+Countercharge,[실버] 반격의 포효,전투,"모든 유닛 피해 보너스 +30%p, 반격 피해 보너스 +60%p.",실버,가능,Countercharge,1,50
+Countercharge_Gold,[골드] 반격의 포효,전투,"모든 유닛 피해 보너스 +60%p, 반격 피해 보너스 +120%p.",골드,가능,Countercharge,2,35
+Countercharge_Prismatic,[프리즘] 반격의 포효,전투,"모든 유닛 피해 보너스 +90%p, 반격 피해 보너스 +180%p.",프리즘,가능,Countercharge,3,15
+Blitz,[실버] 전격전,기동,"모든 유닛 지상 이동력 +1, 피해 보너스 +30%p.",실버,가능,Blitz,1,50
+Blitz_Gold,[골드] 전격전,기동,"모든 유닛 지상 이동력 +2, 피해 보너스 +60%p.",골드,가능,Blitz,2,35
+Blitz_Prismatic,[프리즘] 전격전,기동,"모든 유닛 지상 이동력 +3, 피해 보너스 +90%p.",프리즘,가능,Blitz,3,15
+SiegeIndustry,[실버] 공성 공방,복합,"모든 정착지 산업 +37.5%, 모든 유닛 피해 보너스 +30%p.",실버,가능,SiegeIndustry,1,50
+SiegeIndustry_Gold,[골드] 공성 공방,복합,"모든 정착지 산업 +75%, 모든 유닛 피해 보너스 +60%p.",골드,가능,SiegeIndustry,2,35
+SiegeIndustry_Prismatic,[프리즘] 공성 공방,복합,"모든 정착지 산업 +112.5%, 모든 유닛 피해 보너스 +90%p.",프리즘,가능,SiegeIndustry,3,15
+SupplyChains,[실버] 보급의 물결,복합,"모든 정착지 식량 +37.5%, 모든 유닛 지상 이동력 +1.5.",실버,가능,SupplyChains,1,50
+SupplyChains_Gold,[골드] 보급의 물결,복합,"모든 정착지 식량 +75%, 모든 유닛 지상 이동력 +3.",골드,가능,SupplyChains,2,35
+SupplyChains_Prismatic,[프리즘] 보급의 물결,복합,"모든 정착지 식량 +112.5%, 모든 유닛 지상 이동력 +4.5.",프리즘,가능,SupplyChains,3,15
+MilitaryAcademy,[실버] 전쟁 대학,성장,"모든 유닛 경험치 획득 배율 +75%p, 모든 정착지의 신규 유닛 시작 경험치 +75.",실버,가능,MilitaryAcademy,1,50
+MilitaryAcademy_Gold,[골드] 전쟁 대학,성장,"모든 유닛 경험치 획득 배율 +150%p, 모든 정착지의 신규 유닛 시작 경험치 +150.",골드,가능,MilitaryAcademy,2,35
+MilitaryAcademy_Prismatic,[프리즘] 전쟁 대학,성장,"모든 유닛 경험치 획득 배율 +225%p, 모든 정착지의 신규 유닛 시작 경험치 +225.",프리즘,가능,MilitaryAcademy,3,15
+WorkshopSchool,[실버] 기술 혁명,경제,모든 정착지 산업·과학 +37.5%.,실버,가능,WorkshopSchool,1,50
+WorkshopSchool_Gold,[골드] 기술 혁명,경제,모든 정착지 산업·과학 +75%.,골드,가능,WorkshopSchool,2,35
+WorkshopSchool_Prismatic,[프리즘] 기술 혁명,경제,모든 정착지 산업·과학 +112.5%.,프리즘,가능,WorkshopSchool,3,15
+MerchantLeague,[실버] 상인 연맹,경제,모든 정착지 더스트·영향력 +37.5%.,실버,가능,MerchantLeague,1,50
+MerchantLeague_Gold,[골드] 상인 연맹,경제,모든 정착지 더스트·영향력 +75%.,골드,가능,MerchantLeague,2,35
+MerchantLeague_Prismatic,[프리즘] 상인 연맹,경제,모든 정착지 더스트·영향력 +112.5%.,프리즘,가능,MerchantLeague,3,15
+Enlightenment,[실버] 계몽의 시대,경제,모든 정착지 과학·영향력 +37.5%.,실버,가능,Enlightenment,1,50
+Enlightenment_Gold,[골드] 계몽의 시대,경제,모든 정착지 과학·영향력 +75%.,골드,가능,Enlightenment,2,35
+Enlightenment_Prismatic,[프리즘] 계몽의 시대,경제,모든 정착지 과학·영향력 +112.5%.,프리즘,가능,Enlightenment,3,15
+Granaries,[실버] 풍요로운 민심,내정,"모든 정착지 식량 +37.5%, 승인도 획득 +15.",실버,가능,Granaries,1,50
+Granaries_Gold,[골드] 풍요로운 민심,내정,"모든 정착지 식량 +75%, 승인도 획득 +30.",골드,가능,Granaries,2,35
+Granaries_Prismatic,[프리즘] 풍요로운 민심,내정,"모든 정착지 식량 +112.5%, 승인도 획득 +45.",프리즘,가능,Granaries,3,15
+Commerce,[실버] 산업 자본,경제,모든 정착지 더스트·산업 +37.5%.,실버,가능,Commerce,1,50
+Commerce_Gold,[골드] 산업 자본,경제,모든 정착지 더스트·산업 +75%.,골드,가능,Commerce,2,35
+Commerce_Prismatic,[프리즘] 산업 자본,경제,모든 정착지 더스트·산업 +112.5%.,프리즘,가능,Commerce,3,15
+WarEconomy,[실버] 전시 경제,복합,"모든 정착지 산업 +45%, 모든 유닛 피해 보너스 +22.5%p.",실버,가능,WarEconomy,1,50
+WarEconomy_Gold,[골드] 전시 경제,복합,"모든 정착지 산업 +90%, 모든 유닛 피해 보너스 +45%p.",골드,가능,WarEconomy,2,35
+WarEconomy_Prismatic,[프리즘] 전시 경제,복합,"모든 정착지 산업 +135%, 모든 유닛 피해 보너스 +67.5%p.",프리즘,가능,WarEconomy,3,15
+SkilledLabor,[실버] 숙련된 병기공,성장,"모든 정착지 산업 +37.5%, 신규 유닛 시작 경험치 +112.5.",실버,가능,SkilledLabor,1,50
+SkilledLabor_Gold,[골드] 숙련된 병기공,성장,"모든 정착지 산업 +75%, 신규 유닛 시작 경험치 +225.",골드,가능,SkilledLabor,2,35
+SkilledLabor_Prismatic,[프리즘] 숙련된 병기공,성장,"모든 정착지 산업 +112.5%, 신규 유닛 시작 경험치 +337.5.",프리즘,가능,SkilledLabor,3,15
+ResearchFunding,[실버] 황금 연구소,경제,"모든 정착지 과학 +45%, 더스트 +30%.",실버,가능,ResearchFunding,1,50
+ResearchFunding_Gold,[골드] 황금 연구소,경제,"모든 정착지 과학 +90%, 더스트 +60%.",골드,가능,ResearchFunding,2,35
+ResearchFunding_Prismatic,[프리즘] 황금 연구소,경제,"모든 정착지 과학 +135%, 더스트 +90%.",프리즘,가능,ResearchFunding,3,15
+Rally,[실버] 국민 총동원,복합,"모든 정착지 승인도 획득 +22.5, 모든 유닛 피해 보너스 +22.5%p.",실버,가능,Rally,1,50
+Rally_Gold,[골드] 국민 총동원,복합,"모든 정착지 승인도 획득 +45, 모든 유닛 피해 보너스 +45%p.",골드,가능,Rally,2,35
+Rally_Prismatic,[프리즘] 국민 총동원,복합,"모든 정착지 승인도 획득 +67.5, 모든 유닛 피해 보너스 +67.5%p.",프리즘,가능,Rally,3,15
+Expedition,[실버] 원정의 베테랑,기동,"모든 유닛 지상 이동력 +1, 경험치 획득 배율 +75%p.",실버,가능,Expedition,1,50
+Expedition_Gold,[골드] 원정의 베테랑,기동,"모든 유닛 지상 이동력 +2, 경험치 획득 배율 +150%p.",골드,가능,Expedition,2,35
+Expedition_Prismatic,[프리즘] 원정의 베테랑,기동,"모든 유닛 지상 이동력 +3, 경험치 획득 배율 +225%p.",프리즘,가능,Expedition,3,15
+Frontier,[실버] 개척의 시대,복합,"모든 정착지 식량·산업 +30%, 모든 유닛 시야 +3.",실버,가능,Frontier,1,50
+Frontier_Gold,[골드] 개척의 시대,복합,"모든 정착지 식량·산업 +60%, 모든 유닛 시야 +6.",골드,가능,Frontier,2,35
+Frontier_Prismatic,[프리즘] 개척의 시대,복합,"모든 정착지 식량·산업 +90%, 모든 유닛 시야 +9.",프리즘,가능,Frontier,3,15

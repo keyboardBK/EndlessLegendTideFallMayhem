@@ -1,0 +1,10 @@
+{
+  "AMP_SERIALIZATION_HEADER": {
+    "Version": 0,
+    "AssetTypeName": "Amplitude.Framework.Simulation.Description.Descriptor, Amplitude.Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "SourceElementName": "Tag_Empire_Test_EventTest"
+  },
+  "Effects": [],
+  "serializableCategory": "",
+  "startingType": "Amplitude.Mercury.Simulation.Empire, Amplitude.Mercury.Firstpass"
+}

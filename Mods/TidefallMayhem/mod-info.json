@@ -1,0 +1,9 @@
+{
+  "DisplayName": "Tidefall Mayhem - 아수라장 증강",
+  "Description": "게임 시작과 매 Tidefall마다 무작위 3개 중 1개 영구 증강을 선택합니다. 12종 증강, AI 포함, 시작 + 128회 Tidefall.",
+  "Author": "Local Mod",
+  "Version": "0.1.0",
+  "GameVersion": "",
+  "Guid": "7c0406a2-7e1a-4b8c-89c5-1c99227ef529",
+  "SteamWorkshopId": "0"
+}

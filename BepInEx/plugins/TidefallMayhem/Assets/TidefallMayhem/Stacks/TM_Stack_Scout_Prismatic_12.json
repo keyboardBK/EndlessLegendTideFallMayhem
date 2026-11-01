@@ -1,0 +1,73 @@
+{
+  "AMP_SERIALIZATION_HEADER": {
+    "Version": 0,
+    "AssetTypeName": "Amplitude.Framework.Simulation.Description.Descriptor, Amplitude.Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "SourceElementName": "Effect_Custom_Specific02"
+  },
+  "Effects": [
+    {
+      "ApplyEffectOnSource": false,
+      "Path": {
+        "PropertyToFollow": [
+          "Armies",
+          "Units"
+        ],
+        "Validations": [],
+        "specificTargetType": ""
+      },
+      "PropertyEffects": [
+        {
+          "Note": "",
+          "TargetProperty": "VisionRange",
+          "ToTargetOperation": 0,
+          "RpnOperationStack": [],
+          "ConstantStack": [
+            {
+              "RawValue": 55296000
+            }
+          ],
+          "PropertyLocalName": []
+        },
+        {
+          "Note": "",
+          "TargetProperty": "LandSpeed",
+          "ToTargetOperation": 0,
+          "RpnOperationStack": [],
+          "ConstantStack": [
+            {
+              "RawValue": 24576000
+            }
+          ],
+          "PropertyLocalName": []
+        },
+        {
+          "Note": "",
+          "TargetProperty": "ExperienceGainMultiplier",
+          "ToTargetOperation": 0,
+          "RpnOperationStack": [],
+          "ConstantStack": [
+            {
+              "RawValue": 3072000
+            }
+          ],
+          "PropertyLocalName": []
+        },
+        {
+          "Note": "",
+          "TargetProperty": "DamageBonusModifier",
+          "ToTargetOperation": 0,
+          "RpnOperationStack": [],
+          "ConstantStack": [
+            {
+              "RawValue": 1843200
+            }
+          ],
+          "PropertyLocalName": []
+        }
+      ],
+      "IgnorePropertyEffectLoopCheck": false
+    }
+  ],
+  "serializableCategory": "",
+  "startingType": "Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass"
+}

@@ -1,0 +1,1690 @@
+[
+  {
+    "id": "Rage",
+    "name_ko": "광란",
+    "name_en": "Rage",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +35%p.",
+    "description_en": "All units: +35 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 350
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Titan",
+    "name_ko": "거인",
+    "name_en": "Titan",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +40%.",
+    "description_en": "All units: +40% maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 400
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "March",
+    "name_ko": "질주",
+    "name_en": "Forced March",
+    "category": "전투",
+    "description_ko": "모든 유닛 지상 이동력 +2.",
+    "description_en": "All units: +2 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Vengeance",
+    "name_ko": "복수",
+    "name_en": "Vengeance",
+    "category": "전투",
+    "description_ko": "모든 유닛 반격 피해 보너스 +60%p.",
+    "description_en": "All units: +60 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 600
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Harvest",
+    "name_ko": "끝없는 수확",
+    "name_en": "Endless Harvest",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량 +40%.",
+    "description_en": "All settlements: +40% food.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 400
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Forge",
+    "name_ko": "폭주하는 공장",
+    "name_en": "Overdrive",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업 +40%.",
+    "description_en": "All settlements: +40% industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 400
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Insight",
+    "name_ko": "금단의 지식",
+    "name_en": "Forbidden Knowledge",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +40%.",
+    "description_en": "All settlements: +40% science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 400
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Gold",
+    "name_ko": "황금의 시대",
+    "name_en": "Golden Age",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트 +40%.",
+    "description_en": "All settlements: +40% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 400
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Voice",
+    "name_ko": "절대 권력",
+    "name_en": "Absolute Power",
+    "category": "경제",
+    "description_ko": "모든 정착지 영향력 +40%.",
+    "description_en": "All settlements: +40% influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 400
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Scout",
+    "name_ko": "천리안",
+    "name_en": "Far Sight",
+    "category": "전투",
+    "description_ko": "모든 유닛 시야 +4.5, 지상 이동력 +2, 경험치 획득 배율 +25%p, 피해 보너스 +15%p.",
+    "description_en": "All units: +4.5 vision, +2 land movement, +25 percentage points experience gain multiplier and +15 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 4500
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 150
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0
+  },
+  {
+    "id": "Juggernaut",
+    "name_ko": "파괴전차",
+    "name_en": "Juggernaut",
+    "category": "전투",
+    "description_ko": "모든 유닛 최대 체력 +25%, 피해 보너스 +20%p.",
+    "description_en": "All units: +25% health and +20 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Prosperity",
+    "name_ko": "번영의 물결",
+    "name_en": "Wave of Prosperity",
+    "category": "경제",
+    "description_ko": "모든 정착지 식량·산업·과학·더스트·영향력 +20%.",
+    "description_en": "All settlements: +20% food, industry, science, Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Bulwark",
+    "name_ko": "철벽",
+    "name_en": "Bulwark",
+    "category": "방어",
+    "description_ko": "모든 유닛 고정 피해 감소 +8.",
+    "description_en": "All units: +8 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 8000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Renewal",
+    "name_ko": "재생의 샘",
+    "name_en": "Renewal",
+    "category": "회복",
+    "description_ko": "모든 유닛 체력 재생 +8.",
+    "description_en": "All units: +8 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 8000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Veteran",
+    "name_ko": "백전노장",
+    "name_en": "Veteran",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +200%p.",
+    "description_en": "All units: +200 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0
+  },
+  {
+    "id": "Drill",
+    "name_ko": "정예 훈련소",
+    "name_en": "Elite Training",
+    "category": "성장",
+    "description_ko": "모든 정착지에서 생성하는 유닛의 시작 경험치 +3000.",
+    "description_en": "All settlements: +3000 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 3000000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0
+  },
+  {
+    "id": "Harmony",
+    "name_ko": "태평성대",
+    "name_en": "Harmony",
+    "category": "내정",
+    "description_ko": "모든 정착지 승인도 획득 +15.",
+    "description_en": "All settlements: +15 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 15000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Garrison",
+    "name_ko": "강철 체력",
+    "name_en": "Iron Constitution",
+    "category": "방어",
+    "description_ko": "모든 유닛 최대 체력 +60.",
+    "description_en": "All units: +60 maximum health.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 60000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Armory",
+    "name_ko": "중무장",
+    "name_en": "Heavy Armament",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +20%p, 고정 피해 감소 +4.",
+    "description_en": "All units: +20 percentage points damage bonus and +4 flat damage reduction.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageReductionFlat",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 4000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "FieldMedic",
+    "name_ko": "야전 의무대",
+    "name_en": "Field Medics",
+    "category": "회복",
+    "description_ko": "모든 유닛 최대 체력 +25%, 체력 재생 +4.",
+    "description_en": "All units: +25% maximum health and +4 health regeneration.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "HealthPoints",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "HealthRegen",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 4000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Countercharge",
+    "name_ko": "반격의 포효",
+    "name_en": "Countercharge",
+    "category": "전투",
+    "description_ko": "모든 유닛 피해 보너스 +20%p, 반격 피해 보너스 +40%p.",
+    "description_en": "All units: +20 percentage points damage bonus and +40 percentage points retaliation damage.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "RetaliateDamageModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 400
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Blitz",
+    "name_ko": "전격전",
+    "name_en": "Blitz",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +1, 피해 보너스 +30%p.",
+    "description_en": "All units: +1 land movement and +30 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0
+  },
+  {
+    "id": "SiegeIndustry",
+    "name_ko": "공성 공방",
+    "name_en": "Siege Workshops",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +25%, 모든 유닛 피해 보너스 +20%p.",
+    "description_en": "All settlements: +25% industry. All units: +20 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "SupplyChains",
+    "name_ko": "보급의 물결",
+    "name_en": "Supply Chains",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량 +25%, 모든 유닛 지상 이동력 +1.",
+    "description_en": "All settlements: +25% food. All units: +1 land movement.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "MilitaryAcademy",
+    "name_ko": "전쟁 대학",
+    "name_en": "Military Academy",
+    "category": "성장",
+    "description_ko": "모든 유닛 경험치 획득 배율 +50%p, 모든 정착지의 신규 유닛 시작 경험치 +50.",
+    "description_en": "All units: +50 percentage points experience gain multiplier. All settlements: +50 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 500
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 50000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "WorkshopSchool",
+    "name_ko": "기술 혁명",
+    "name_en": "Technical Revolution",
+    "category": "경제",
+    "description_ko": "모든 정착지 산업·과학 +25%.",
+    "description_en": "All settlements: +25% industry and science.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "MerchantLeague",
+    "name_ko": "상인 연맹",
+    "name_en": "Merchant League",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·영향력 +25%.",
+    "description_en": "All settlements: +25% Dust and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Enlightenment",
+    "name_ko": "계몽의 시대",
+    "name_en": "Enlightenment",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학·영향력 +25%.",
+    "description_en": "All settlements: +25% science and influence.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "InfluenceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Granaries",
+    "name_ko": "풍요로운 민심",
+    "name_en": "Full Granaries",
+    "category": "내정",
+    "description_ko": "모든 정착지 식량 +25%, 승인도 획득 +10.",
+    "description_en": "All settlements: +25% food and +10 approval gain.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 10000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Commerce",
+    "name_ko": "산업 자본",
+    "name_en": "Industrial Capital",
+    "category": "경제",
+    "description_ko": "모든 정착지 더스트·산업 +25%.",
+    "description_en": "All settlements: +25% Dust and industry.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "WarEconomy",
+    "name_ko": "전시 경제",
+    "name_en": "War Economy",
+    "category": "복합",
+    "description_ko": "모든 정착지 산업 +30%, 모든 유닛 피해 보너스 +15%p.",
+    "description_en": "All settlements: +30% industry. All units: +15 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 150
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "SkilledLabor",
+    "name_ko": "숙련된 병기공",
+    "name_en": "Skilled Armorers",
+    "category": "성장",
+    "description_ko": "모든 정착지 산업 +25%, 신규 유닛 시작 경험치 +75.",
+    "description_en": "All settlements: +25% industry and +75 experience on unit creation.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 250
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainOnUnitCreation",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 75000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "ResearchFunding",
+    "name_ko": "황금 연구소",
+    "name_en": "Golden Laboratories",
+    "category": "경제",
+    "description_ko": "모든 정착지 과학 +30%, 더스트 +20%.",
+    "description_en": "All settlements: +30% science and +20% Dust.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ScienceGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 300
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "MoneyGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Rally",
+    "name_ko": "국민 총동원",
+    "name_en": "Rally the Nation",
+    "category": "복합",
+    "description_ko": "모든 정착지 승인도 획득 +15, 모든 유닛 피해 보너스 +15%p.",
+    "description_en": "All settlements: +15 approval gain. All units: +15 percentage points damage bonus.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "ApprovalGain",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 15000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "DamageBonusModifier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 150
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  },
+  {
+    "id": "Expedition",
+    "name_ko": "원정의 베테랑",
+    "name_en": "Expedition Veterans",
+    "category": "기동",
+    "description_ko": "모든 유닛 지상 이동력 +1, 경험치 획득 배율 +75%p.",
+    "description_en": "All units: +1 land movement and +75 percentage points experience gain multiplier.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "LandSpeed",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 1000
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "ExperienceGainMultiplier",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 750
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ],
+    "effect_multiplier": 1.0
+  },
+  {
+    "id": "Frontier",
+    "name_ko": "개척의 시대",
+    "name_en": "Frontier Age",
+    "category": "복합",
+    "description_ko": "모든 정착지 식량·산업 +20%, 모든 유닛 시야 +2.",
+    "description_en": "All settlements: +20% food and industry. All units: +2 vision.",
+    "effects": [
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Settlements"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "FoodGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          },
+          {
+            "Note": "",
+            "TargetProperty": "IndustryGain",
+            "ToTargetOperation": 4,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 200
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      },
+      {
+        "ApplyEffectOnSource": false,
+        "Path": {
+          "PropertyToFollow": [
+            "Armies",
+            "Units"
+          ],
+          "Validations": [],
+          "specificTargetType": ""
+        },
+        "PropertyEffects": [
+          {
+            "Note": "",
+            "TargetProperty": "VisionRange",
+            "ToTargetOperation": 0,
+            "RpnOperationStack": [],
+            "ConstantStack": [
+              {
+                "RawValue": 2000
+              }
+            ],
+            "PropertyLocalName": []
+          }
+        ],
+        "IgnorePropertyEffectLoopCheck": false
+      }
+    ]
+  }
+]
